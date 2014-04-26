@@ -1,60 +1,68 @@
 jetpacksGallery = {
-	// You can put comments in the code which are prefaced by '//'
-	// this will tell Javascript to ignore whatever comes next on that line
-	// 
-	// Each gallery is defined as follows
-	//
-	// "Gallery 1": ["image1.jpg", "image2.jpg", ... ],
-	// "Gallery 2": [ ... ]
-	//
-	// Images will appear in the order that they are listed 
 
-	"print" : [
+	"video" : {
+		title: "Video",
+		videos: [
+		]
+	},
 
-	],
+	"collage" : {
+		title: "Collage",
+		pictures: [
+		]
+	},
 
-	"painting" : [
+	"painting" : {
+		title: "Painting",
+		pictures: [
+			"br13.jpg",
+			"br14.jpg",
+			"br15.jpg",
+			"br17.jpg",
+			"br19.jpg",
+			"br20.jpg",
+			"br21.jpg",
+			"br22.jpg"
+		]
+	},
 
-	],
+	"drawing" : {
+		title: "Drawing / Sketchbooks",
+		pictures: [
+		]
+	},
 
-	"drawing" : [
+	"sculpture" : {
+		title: "Sculpture / Installation",
+		pictures: [
+			"a4.jpg",
+			"a5.jpg",
+			"a6.jpg"
+		]
+	},
 
-	],
+	"print" : {
+		title: "Print",
+		pictures: [
+		]
+	},
 
-	"sketchbooks" : [
+	"photographs" : {
+		title: "Photographs",
+		pictures: [
+		]
+	},
 
-	],
+	"performance" : {
+		title: "Performance / Happenings",
+		pictures: [
+		]
+	},
 
-	"sculpture" : [
-
-	],
-
-	"event" : [
-
-	],
-
-	"how_to" : [
-
-	],
-
-	"textile" : [
-
-	],
-
-	"fashion" : [
-
-	],
-
-	"vernacular" : [
-
-	],
-
-	"collage" : [
-
-	],
-
-	"photography" : [
-
-	],
+	"textile" : {
+		title: "Textile",
+		pictures: [
+		]
+	}
 
 }
