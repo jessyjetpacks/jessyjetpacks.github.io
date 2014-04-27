@@ -37,7 +37,8 @@ jetpacksGallery = {
 		pictures: [
 			"a4.jpg",
 			"a5.jpg",
-			"a6.jpg"
+			"a6.jpg",
+			"br13.jpg"
 		]
 	},
 
