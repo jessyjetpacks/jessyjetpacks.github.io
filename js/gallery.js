@@ -6,10 +6,62 @@ jetpacksGallery = {
 		]
 	},
 
-	"collage" : {
-		title: "Collage",
+	"clothing" : {
+		title: "Clothing",
 		pictures: [
+			{
+				source:"c19.jpg",
+				title:"What do you want",
+				description:"Self specific erogenous zone suit"
+			},
+			{
+				source:"c20.jpg",
+				title:"No such thing as fair trade cocaine"
+				description: "Self bleeding explanitory. you got coke on your hands and a nose full of south american blood"
+			},
+		        {
+				source:"c22.jpg",
+				title:"Capitalisms fundamental premise is scarcity"
+			},
+			{
+				source:"c23.jpg",
+				title:"Young men pull your trousers up"
+				description: "Or dont, im a t-shirt not a cop"
+			},
+			{
+				source:"c24.jpg",
+				title:"Elite panic attack, get off my back... you aint never gonna get them trainars back"
+			},
+			{
+				source:"c25.jpg",
+				title:"Here's a title!"
+			},
+			{
+				source:"c26.jpg",
+				title:"Here's a title!"
+			},
+			{
+				source:"c27.jpg",
+				title:"Here's a title!"
+			},
+			{
+				source:"c28.jpg",
+				title:"Here's a title!"
+			},
+			{
+				source:"c29.jpg",
+				title:"Here's a title!"
+			},
+			{
+				source:"c30.jpg",
+				title:"Here's a title!"
+			},
+			{
+				source:"c31.jpg",
+				title:"Here's a title!"
+			},
 		]
+			
 	},
 
 	"painting" : {
@@ -43,7 +95,7 @@ jetpacksGallery = {
 	},
 
 	"print" : {
-		title: "Print",
+		title: "Print / Collage",
 		pictures: [
 		]
 	},
