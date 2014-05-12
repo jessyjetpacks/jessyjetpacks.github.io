@@ -124,5 +124,4 @@ jetpacksGallery = {
 		pictures: [
 		]
 	}
-
 }
