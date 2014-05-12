@@ -8,8 +8,8 @@ $( document ).ready( function () {
 
 		_.each( gallery.pictures, function( picture ) {
 			gal.append( "<div class='image col-sm-2 col-xs-6'>"
-				+ "<a href='img/images/" + picture + "'>"
-				+ "<img src='img/thumbnails/" + picture + "'>"
+				+ "<a href='img/images/" + picture.source + "'>"
+				+ "<img src='img/thumbnails/" + picture.source + "'>"
 				+ "</a></div>" );
 		})
 	});
