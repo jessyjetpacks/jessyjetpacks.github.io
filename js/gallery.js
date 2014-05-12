@@ -45,23 +45,27 @@ jetpacksGallery = {
 			},
 			{
 				source:"c27.jpg",
-				title:"Here's a title!"
+				title:"Jumpersuit",
+				description: "Jumpsuit made of reclaimed fabric, sourced entirley from abandoned jumpers found on the streets. (washed and mended beofre used)"
 			},
 			{
 				source:"c28.jpg",
-				title:"Here's a title!"
+				title:"Reversable frog hat",
+				description: "Example of series of hats made of reclaimed materials, project called 'time is money'"
 			},
 			{
 				source:"c29.jpg",
-				title:"Here's a title!"
+				title:"Series of hats",
+				description: "Examples of hats made from reclaimed materials, part of project called 'time is money'"
 			},
 			{
 				source:"c30.jpg",
-				title:"Here's a title!"
+				title:"Ladybirdboy",
+				description: "Fancy dress"
 			},
 			{
 				source:"c31.jpg",
-				title:"Here's a title!"
+				title:"Baboon culture"
 			},
 		]
 			
