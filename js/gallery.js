@@ -16,7 +16,7 @@ jetpacksGallery = {
 			},
 			{
 				source:"c20.jpg",
-				title:"No such thing as fair trade cocaine"
+				title:"No such thing as fair trade cocaine",
 				description: "Self bleeding explanitory. you got coke on your hands and a nose full of south american blood"
 			},
 		        {
@@ -25,20 +25,23 @@ jetpacksGallery = {
 			},
 			{
 				source:"c23.jpg",
-				title:"Young men pull your trousers up"
+				title:"Young men pull your trousers up",
 				description: "Or dont, im a t-shirt not a cop"
 			},
 			{
 				source:"c24.jpg",
-				title:"Elite panic attack, get off my back... you aint never gonna get them trainars back"
+				title:"Elite panic attack, get off my back... you aint never gonna get them trainars back",
+				description: "after the london riots. after reading 'A paradise built in hell-Rebecca Solnit'"
 			},
 			{
 				source:"c25.jpg",
-				title:"Here's a title!"
+				title:"All the women who independent, stop lying.",
+				description: "Girl i didnt know you could get down like that"
 			},
 			{
 				source:"c26.jpg",
-				title:"Here's a title!"
+				title:"Sorry but fuck apologists",
+				description:"The miley cyrus shirt"
 			},
 			{
 				source:"c27.jpg",
