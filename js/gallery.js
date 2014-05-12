@@ -74,36 +74,130 @@ jetpacksGallery = {
 	"painting" : {
 		title: "Painting",
 		pictures: [
-			"br13.jpg",
-			"br14.jpg",
-			"br15.jpg",
-			"br17.jpg",
-			"br19.jpg",
-			"br20.jpg",
-			"br21.jpg",
-			"br22.jpg"
+			
+				{
+				source:"p10.jpg",
+				title:"Detail of 'With you gone there is still always cats"
+			},	{
+				source:"p11.jpg",
+				title:"Love triangles"
+			},	{
+				source:"p11a.jpg",
+				title:"Love triangle",
+				description: "Bottom pyramid"
+			},	{
+				source:"p11b.jpg",
+				title:"Love triangle",
+				description: "Top pyramid"
+			},	{
+				source:"p12.jpg",
+				title:"In perfect love and perfect trust"
+			},	{
+				source:"p13.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"p13a.jpg",
+				title:"Neutral aim"
+			},	{
+				source:"p13b.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"p13c.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},	{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},
+		
 		]
 	},
 
 	"drawing" : {
 		title: "Drawing / Sketchbooks",
 		pictures: [
+				{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},
 		]
 	},
 
 	"sculpture" : {
 		title: "Sculpture / Installation",
 		pictures: [
-			"a4.jpg",
-			"a5.jpg",
-			"a6.jpg",
-			"br13.jpg"
+				{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},
+			
+		
 		]
 	},
 
 	"print" : {
 		title: "Print / Collage",
 		pictures: [
+				{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},
 		]
 	},
 
@@ -116,12 +210,20 @@ jetpacksGallery = {
 	"performance" : {
 		title: "Performance / Happenings",
 		pictures: [
+				{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},
 		]
 	},
 
 	"textile" : {
 		title: "Textile",
 		pictures: [
+				{
+				source:"c31.jpg",
+				title:"Baboon culture"
+			},
 		]
 	}
 
