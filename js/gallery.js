@@ -172,7 +172,7 @@ jetpacksGallery = {
 	"drawing" : {
 		title: "Drawing / Sketchbooks",
 		pictures: [
-				{
+			{
 				source:"c31.jpg",
 				title:"Baboon culture"
 			},
@@ -182,19 +182,17 @@ jetpacksGallery = {
 	"sculpture" : {
 		title: "Sculpture / Installation",
 		pictures: [
-				{
+			{
 				source:"c31.jpg",
 				title:"Baboon culture"
 			},
-
-
 		]
 	},
 
 	"print" : {
 		title: "Print / Collage",
 		pictures: [
-				{
+			{
 				source:"c31.jpg",
 				title:"Baboon culture"
 			},
@@ -210,7 +208,7 @@ jetpacksGallery = {
 	"performance" : {
 		title: "Performance / Happenings",
 		pictures: [
-				{
+			{
 				source:"c31.jpg",
 				title:"Baboon culture"
 			},
@@ -220,7 +218,7 @@ jetpacksGallery = {
 	"textile" : {
 		title: "Textile",
 		pictures: [
-				{
+			{
 				source:"c31.jpg",
 				title:"Baboon culture"
 			},
