@@ -1,7 +1,7 @@
 jetpacksGallery = {
 
 	"video" : {
-		title: "Video",
+		title: "VideoTEST",
 		videos: [
 		]
 	},
@@ -68,13 +68,13 @@ jetpacksGallery = {
 				title:"Baboon culture"
 			},
 		]
-			
+
 	},
 
 	"painting" : {
 		title: "Painting",
 		pictures: [
-			
+
 				{
 				source:"p10.jpg",
 				title:"Detail of 'With you gone there is still always cats"
@@ -165,7 +165,7 @@ jetpacksGallery = {
 				source:"c31.jpg",
 				title:"Baboon culture"
 			},
-		
+
 		]
 	},
 
@@ -186,8 +186,8 @@ jetpacksGallery = {
 				source:"c31.jpg",
 				title:"Baboon culture"
 			},
-			
-		
+
+
 		]
 	},
 
