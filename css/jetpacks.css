@@ -19,7 +19,7 @@ img {
     table-layout: fixed;
     float:none;
 }
-} 
+}
 
 .frontpage .col-md-12 {
 	text-align:center;
@@ -111,4 +111,15 @@ div.footer {
 	right:0;
 	bottom:0;
 	padding:12pt;
+}
+
+span.picture_title {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 120%;
+}
+
+span.picture_description {
+  font-weight: normal;
+  display: block;
 }
