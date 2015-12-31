@@ -1,7 +1,7 @@
 jetpacksGallery = {
 
 	"video" : {
-		title: "VideoTEST",
+		title: "Video",
 		videos: [
 		]
 	},
