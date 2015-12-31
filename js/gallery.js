@@ -2,7 +2,14 @@ jetpacksGallery = {
 
 	"video" : {
 		title: "Video",
-		videos: [
+		pictures: [
+			{
+				type: "video",
+				youtube: "YJxsNriQObs",
+				thumbnail: "", // Can put an image in img/thumbnails, or it will just use the default
+				title:"Nathan's space talks",
+				description:"just making sure this all works"
+			}
 		]
 	},
 
