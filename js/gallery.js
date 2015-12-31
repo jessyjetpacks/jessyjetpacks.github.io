@@ -2,12 +2,12 @@ jetpacksGallery = {
 
 	"video" : {
 		title: "Video",
+		type: "video", // Only necessary if it's not a picture gallery
 		pictures: [
 			{
-				type: "video",
 				youtube: "YJxsNriQObs",
 				thumbnail: "", // Can put an image in img/thumbnails, or it will just use the default
-				title:"Nathan's space talks",
+				title:"Nathan's space talk",
 				description:"just making sure this all works"
 			}
 		]
