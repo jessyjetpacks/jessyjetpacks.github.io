@@ -13,10 +13,12 @@ $( document ).ready( function () {
 			if (!gallery.type) {
 				href = "img/images/" + picture.source;
 				thumbnail = "img/thumbnails/" + picture.source;
-			} else if (gallery.type === 'video') {
+			}
+			else if (gallery.type === 'video') {
 				if (picture.youtube) {
 					href = "https://www.youtube.com/watch?v=" + picture.youtube;
 					if (!picture.thumbnail) thumbnail = "http://img.youtube.com/vi/" + picture.youtube + "/0.jpg";
+					else thumbnail = "img/thumbnails/" + picture.thumbnail;
 				}
 			}
 			gal.append("<div class='image col-sm-2 col-xs-6'>"
