@@ -102,6 +102,36 @@ jetpacksGallery = {
 				year: 2014,
 				month: 1
 			},
+			{
+				source: "stuff.jpg",
+				title: "3D test prints",
+				year: 2015,
+				month: 11
+			},
+			{
+				source: "jetpacks_9.jpg",
+				title: "Carl Sagan teapot plant",
+				year: 2015,
+				month: 11
+			},
+			{
+				source: "jetpacks_8.jpg",
+				title: "Carl Sagan teapot plant",
+				year: 2015,
+				month: 11
+			},
+			{
+				source: "jetpacks_7.jpg",
+				title: "Carl Sagan teapot plant",
+				year: 2015,
+				month: 11
+			},
+			{
+				source: "DSC05878.jpg",
+				title: "classic biscuit shopping figure",
+				year: 2015,
+				month: 10
+			},
 		]
 	},
 
