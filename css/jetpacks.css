@@ -5,7 +5,7 @@ font-family: 'Montserrat Subrayada', sans-serif;
 */
 
 body {
-  padding-top: 70px;
+  padding-top: 115px;
 }
 
 img {
@@ -68,6 +68,42 @@ img {
 	background-color: white;
 	border-color: black;
 	padding-top:10px;
+}
+
+#sortby-nav {
+  display: block;
+  position: fixed;
+  background: black;
+  color: white;
+  width: 100%;
+}
+
+#sortby-nav>div {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px;
+}
+
+.sort-button {
+  border-radius: 3px;
+  padding: 2px 6px;
+  margin: 3px 0 3px 20px;
+  font-size: 120%;
+  color: black;
+  background: white;
+  cursor: default;
+}
+
+.sort-button:not(.selected) {
+  background: #bbb;
+  color: #666;
+  cursor: pointer;
+}
+
+.sort-button:not(.selected):hover {
+  background: #ddd;
+  color: #333;
 }
 
 #portfolio-nav a {
