@@ -24,7 +24,7 @@ jetpacksGallery = {
 			{
 				source:"c20.jpg",
 				title:"No such thing as fair trade cocaine",
-				description: "Self bleeding explanitory. you got coke on your hands and a nose full of south american blood"
+				description: "Self bleeding explanatory. You got coke on your hands and a nose full of south american blood."
 			},
 		        {
 				source:"c22.jpg",
