@@ -150,9 +150,15 @@ div.footer {
 }
 
 span.picture_title {
-  display: block;
   margin-bottom: 5px;
+  font-weight: bold;
   font-size: 120%;
+}
+
+span.picture_date {
+  white-space: nowrap;
+  font-size: 90%;
+  margin-left: 1em;
 }
 
 span.picture_description {

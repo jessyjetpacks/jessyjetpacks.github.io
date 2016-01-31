@@ -1,4 +1,10 @@
 $( document ).ready( function () {
+	var _MONTH_NUM = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+	function num2month(num) {
+		return _MONTH_NUM[num-1];
+	}
+
 	function clearTheStage() {
 		$("#portfolio-nav").html("");
 		$("#portfolio-gallery").html("");
@@ -25,11 +31,24 @@ $( document ).ready( function () {
 			+ "</div></div>" ).appendTo( "#portfolio-gallery" );
 	}
 
+	function gallerySort(pictures) {
+		pictures = pictures || [];
+		return pictures.sort(function(a, b) {
+			if (a.year > b.year) return -1;
+			if (a.year < b.year) return 1;
+			if (a.month > b.month) return -1;
+			if (a.month < b.month) return 1;
+			if (_.isString(a.title) && _.isString(b.title) && a.title.toLowerCase() > b.title.toLowerCase()) return 1;
+			return 0;
+		});
+	}
+
 	function newPicture(galleryHTML, picture, galleryType) {
-		var title, description, href, thumbnail;
+		var title, date, description, href, thumbnail;
 		var reg = new RegExp("\'", "gim");
 
 		title = picture.title ? "<span class=\"picture_title\">" + picture.title.replace(reg, "&#39") + "</span>" : "";
+		date = "<span class=\"picture_date\">( " + num2month(picture.month) + " " + picture.year + " )</span>";
 		description = picture.description ? '<span class=\"picture_description\">' + picture.description.replace(reg, "&#39") + '</span>': "";
 
 		if (!galleryType) {
@@ -46,14 +65,13 @@ $( document ).ready( function () {
 		}
 
 		galleryHTML.append("<div class='image col-sm-2 col-xs-6'>"
-			+ "<a class='image-link' href='" + href + "' data-title='" + title + description + "'>"
+			+ "<a class='image-link' href='" + href + "' data-title='" + title + date + description + "'>"
 			+ "<img src='" + thumbnail + "'>"
 			+ "</a></div>" );
 	}
 
 	function showByMedia() {
-		var gal, title, description, href, thumbnail;
-		var reg = new RegExp("\'", "gim");
+		var gal;
 
 		clearTheStage();
 
@@ -62,9 +80,9 @@ $( document ).ready( function () {
 
 			gal = newGallery(gallery.title, key, gallery.type);
 
-			_.each( gallery.pictures, function(picture) {
+			gallerySort(gallery.pictures).forEach(function(picture) {
 				newPicture(gal, picture, gallery.type);
-			})
+			});
 		});
 
 		// Portfolio media selector
@@ -98,16 +116,7 @@ $( document ).ready( function () {
 			images = images.concat(gallery.pictures);
 		});
 
-		images.sort(function(a, b) {
-			if (a.year > b.year) return -1;
-			if (a.year < b.year) return 1;
-			if (a.month > b.month) return -1;
-			if (a.month < b.month) return 1;
-			if (_.isString(a.title) && _.isString(b.title) && a.title.toLowerCase() > b.title.toLowerCase()) return 1;
-			return 0;
-		});
-
-		images.forEach(function(image) {
+		gallerySort(images).forEach(function(image) {
 			if (image.year != year) {
 				year = image.year;
 				gal = newGallery(year, year);
