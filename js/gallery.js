@@ -128,7 +128,13 @@ jetpacksGallery = {
 			},
 			{
 				source: "DSC05878.jpg",
-				title: "classic biscuit shopping figure",
+				title: "classic Sharon biscuit tragedy",
+				year: 2015,
+				month: 10
+			},
+			{
+				source: "jetpacks_1.jpg",
+				title: "classic Sharon biscuit tragedy",
 				year: 2015,
 				month: 10
 			},
@@ -139,11 +145,120 @@ jetpacksGallery = {
 		title: "Drawing / Sketchbook",
 		pictures: [
 			{
-				source: "c31.jpg",
-				title: "Baboon culture",
+				source: "dr23.jpg",
+				title: "phallic mushroom",
+				year: 2013,
+				month: 5
+			},
+			{
+				source: "dr21.jpg",
+				title: "i love your fruiting body",
+				year: 2013,
+				month: 3
+			},
+			{
+				source: "dr33.jpg",
+				title: "sketchbook",
+				year: 2011,
+				month: 8
+			},
+			{
+				source: "dr32.jpg",
+				title: "sketchbook",
+				year: 2011,
+				month: 10
+			},
+			{
+				source: "dr31.jpg",
+				title: "sketchbook",
+				year: 2011,
+				month: 10
+			},
+			{
+				source: "dr30.jpg",
+				title: "sketchbook- a little death a little madness, where is the only escape",
+				year: 2011,
+				month: 11
+			},
+			{
+				source: "dr28.jpg",
+				title: "sketchbook",
+				year: 2011,
+				month: 5
+			},
+			{
+				source: "dr27.jpg",
+				title: "sketchbook",
 				year: 2014,
 				month: 1
 			},
+			{
+				source: "dr26.jpg",
+				title: "DNA peace",
+				year: 2011,
+				month: 5
+			},
+			{
+				source: "dr25.jpg",
+				title: "sketchbook",
+				year: 2012,
+				month: 3
+			},
+			{
+				source: "dr24.jpg",
+				title: "do you really want to pick that thread?",
+				year: 2012,
+				month: 3
+			},
+			{
+				source: "dr22.jpg",
+				title: "phallic mushroom",
+				year: 2013,
+				month: 3
+			},
+			{
+				source: "dr20aaa.jpg",
+				title: "how long are you going to hold that over me",
+				year: 2011,
+				month: 12
+			},
+			{
+				source: "dr19-yolo.jpg",
+				title: "YOLO",
+				year: 2013,
+				month: 6
+			},
+			{
+				source: "dr18-yolo2.jpg",
+				title: "YOLO",
+				year: 2013,
+				month: 6
+			},
+			{
+				source: "dr16.jpg",
+				title: "Jimmy",
+				year: 2012,
+				month: 4
+			},
+			{
+				source: "dr15.jpg",
+				title: "London got me like",
+				year: 2013,
+				month: 12
+			},
+			{
+				source: "dr15a.jpg",
+				title: "the only way out is through",
+				year: 2013,
+				month: 12
+			},
+			{
+				source: "dr14.jpg",
+				title: "london got me like",
+				year: 2013,
+				month: 12
+			},
+
 		]
 	},
 
@@ -237,7 +352,7 @@ jetpacksGallery = {
 	},
 
 	"Stills" : {
-		title: "Stills",
+		title: "Stills and performance",
 		pictures: [
 		]
 	},
