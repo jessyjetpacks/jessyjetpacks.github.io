@@ -128,6 +128,10 @@ img {
 	text-decoration:none;
 }
 
+.portfolio .image {
+  padding: 2px;
+}
+
 .portfolio .image, #portfolio-nav > div {
 	display:inline-block;
 	float:none;
@@ -135,8 +139,19 @@ img {
 	text-align:center;
 }
 
+.portfolio .image a {
+  padding: 12px;
+  display: block;
+  border-radius: 4pt;
+}
+
+.portfolio .image a:hover {
+  background: #ddd;
+}
+
 .portfolio .image img {
-	margin: 12px 0;
+	background: white;
+  padding: 2px;
 }
 
 div.footer {
