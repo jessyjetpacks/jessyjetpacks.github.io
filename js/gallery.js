@@ -275,7 +275,7 @@ jetpacksGallery = {
 			{
 				source:"c20.jpg",
 				title:"No such thing as fair trade cocaine",
-				description: "Self bleeding explanatory. You got coke on your hands and a nose full of south american blood.",
+				description: "",
 				year: 2015,
 				month: 5
 			},
@@ -295,7 +295,7 @@ jetpacksGallery = {
 			{
 				source: "c24.jpg",
 				title: "Elite panic attack, get off my back... you aint never gonna get them trainars back",
-				description: "after the london riots. after reading 'A paradise built in hell-Rebecca Solnit'",
+				description: "",
 				year: 2014,
 				month: 1
 			},
