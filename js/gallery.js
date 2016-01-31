@@ -357,39 +357,39 @@ jetpacksGallery = {
 			{
 				source: "ha30.jpg",
 				title: "kids in masks- festival workshop",
-				description:
+				description: "",
 				year: 2013,
 				month: 9
 			},
 			{
 				source: "ha29.jpg",
 				title: "kids in masks- festival workshop",
-				description:
+				description: "",
 				year: 2013,
 				month: 9
 			},
 			{
 				source: "ha28.jpg",
 				title: "we all owe everything to having been given something",
-				description:
+				description: "",
 				year: 2010,
 				month: 8
 			},
 			{
 				source: "ha27.jpg",
 				title: "villiage green preservation",
-				description:
+				description: "",
 				year: 2010,
 				month: 7
 			},
 			{
 				source: "ha26.jpg",
 				title: "village green preservation",
-				description:
+				description: "",
 				year: 2010,
 				month: 7
 			},
-		
+
 		]
 	},
 
