@@ -389,6 +389,13 @@ jetpacksGallery = {
 				year: 2010,
 				month: 7
 			},
+			{
+				source: "7.jpg",
+				title: "GMA",
+				description: "",
+				year: 2014,
+				month: 7
+			},
 
 		]
 	},
