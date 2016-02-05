@@ -76,20 +76,38 @@ img {
   background: black;
   color: white;
   width: 100%;
+  text-align: center;
 }
 
-#sortby-nav>div {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 6px;
+#sortby-nav>div, #sortby-nav>a {
+  display: inline-block;
+  border: solid white 1px;
+  border-radius: 3px;
+  max-width: 280px;
+  width: 25%;
+  padding: 3px 6px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+#sortby-nav>a, #sortby-nav>div .title {
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+}
+
+#sortby-nav>a:hover {
+  background: #444;
+}
+
+#sortby-nav>div .title {
+  margin-right: 12px;
 }
 
 .sort-button {
   border-radius: 3px;
   padding: 2px 6px;
-  margin: 3px 0 3px 20px;
-  font-size: 120%;
+  margin: 2px 0 2px 12px;
   color: black;
   background: white;
   cursor: default;
