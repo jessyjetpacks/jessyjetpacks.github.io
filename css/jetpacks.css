@@ -12,13 +12,21 @@ img {
 	max-width:100%;
 }
 
-@media (min-width: 768px){
-.navbar-nav{
-    margin: 0 auto;
-    display: table;
-    table-layout: fixed;
-    float:none;
+#sortby-nav .sorter {
+  display: none;
 }
+
+@media (min-width: 768px){
+  .navbar-nav {
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+      float:none;
+  }
+
+  #sortby-nav .sorter {
+    display: inline-block;
+  }
 }
 
 .frontpage .col-md-12 {
