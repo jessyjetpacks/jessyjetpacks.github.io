@@ -206,3 +206,13 @@ span.picture_description {
   font-weight: normal;
   display: block;
 }
+
+#contact {
+  text-align: center;
+}
+
+#contact a {
+  display: block;
+  font-size: 20pt;
+  line-height: 2;
+}
