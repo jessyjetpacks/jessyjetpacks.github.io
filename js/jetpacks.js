@@ -158,15 +158,9 @@ function renderAudio() {
 
 	clearTheStage();
 
+	gal = newGallery("", "");
+
 	gallerySort(jetpacksGallery).forEach(function(src) {
-		if (src.year != year) {
-			year = src.year;
-			gal = newGallery(year, year);
-			console.log(year);
-		}
-
-		console.log(src);
-
 		newAudio(gal, src);
 	});
 }
