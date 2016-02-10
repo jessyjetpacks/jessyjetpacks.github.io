@@ -113,8 +113,8 @@ a.navbar-brand {
   background: #444;
 }
 
-#sortby-nav>div .title {
-  margin-right: 12px;
+#sortby-nav>div .sorter {
+  margin-left: 12px;
 }
 
 .sort-button {
@@ -212,7 +212,7 @@ span.picture_description {
   display: block;
 }
 
-#contact {
+#contact, #video-gallery {
   text-align: center;
 }
 
