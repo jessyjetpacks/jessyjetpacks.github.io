@@ -133,7 +133,7 @@ jetpacksGallery = {
 				month: 5
 			},
 			{
-				source: "poop monster2.png",
+				source: "poop monster2.jpg",
 				title: "poop monster",
 				year: 2015,
 				month: 5
@@ -173,6 +173,12 @@ jetpacksGallery = {
 				title: "Hattie",
 				year: 2014,
 				month: 7
+			},
+			{
+				source: "p18.jpg",
+				title: "Dots first trip",
+				year: 2009,
+				month: 8
 			}
 		]
 	},
@@ -188,6 +194,18 @@ jetpacksGallery = {
 			},
 			{
 				source: "DSC04267.jpg",
+				title: "I love your fruiting body",
+				year: 2014,
+				month: 1
+			},
+			{
+				source: "DSC04270.jpg",
+				title: "I love your fruiting body",
+				year: 2014,
+				month: 1
+			},
+			{
+				source: "DSC04277.jpg",
 				title: "I love your fruiting body",
 				year: 2014,
 				month: 1
@@ -727,6 +745,20 @@ jetpacksGallery = {
 				description: "",
 				year: 2013,
 				month: 8
+			},
+			{
+				source: "fp6.jpg",
+				title: "tea",
+				description: "",
+				year: 2014,
+				month: 8
+			},
+			{
+				source: "fp8.jpg",
+				title: "tea",
+				description: "",
+				year: 2014,
+				month: 2
 			},
 
 
