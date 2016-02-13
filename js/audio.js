@@ -18,10 +18,5 @@ jetpacksGallery = [
 		source: "168844602",
 		year: 2014,
 		month: 1
-	},
-	{
-		source: "168844602",
-		year: 2014,
-		month: 1
 	}
 ];

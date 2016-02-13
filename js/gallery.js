@@ -21,62 +21,62 @@ jetpacksGallery = {
 				{
 				source: "p10.jpg",
 				title: "Detail of 'With you gone there is still always cats",
-				year: 2014,
-				month: 1
+				year: 2012,
+				month: 8
 			},	{
 				source: "p11.jpg",
 				title: "Love triangles",
-				year: 2014,
-				month: 1
+				year: 2012,
+				month: 8
 			},	{
 				source: "p11a.jpg",
 				title: "Love triangle",
 				description: "Bottom pyramid",
-				year: 2014,
-				month: 1
+				year: 2012,
+				month: 8
 			},	{
 				source: "p11b.jpg",
 				title: "Love triangle",
 				description: "Top pyramid",
-				year: 2014,
-				month: 1
+				year: 2012,
+				month: 8
 			},	{
 				source: "p12.jpg",
 				title: "In perfect love and perfect trust",
-				year: 2014,
-				month: 1
+				year: 2012,
+				month: 8
 			},	{
 				source: "p13.jpg",
-				title: "Baboon culture",
-				year: 2014,
-				month: 1
+				title: "",
+				year: 2012,
+				month: 2
 			},	{
 				source: "br17.jpg",
 				title: "Neutral aim",
-				year: 2014,
-				month: 1
+				year: 2012,
+				month: 2
 			},	{
 				source: "sc26.jpg",
 				title: "in perfect love and perfect trust",
-				year: 2014,
-				month: 1
+				year: 2012,
+				month: 8
 			},	{
 				source: "br22.jpg",
-				title: "Baboon culture",
-				year: 2014,
-				month: 1
+				title: "its a long way nowhere",
+				year: 2011,
+				month: 11
 			},
 			{
 				source: "sc20.jpg",
 				title: "Board out of my mind",
-				year: 2014,
+				year: 2012,
 				month: 1
 			},
 			{
 				source: "sc25.jpg",
 				title: "in perfect love and perfect trust",
-				year: 2014,
-				month: 1
+				year: 2012,
+				month: 8
 			},
 			{
 				source: "pr28.jpg",
@@ -108,6 +108,18 @@ jetpacksGallery = {
 				year: 2013,
 				month: 6
 			},
+			{
+				source: "pr20.jpg",
+				title: "best music",
+				year: 2011,
+				month: 6
+			},
+			{
+				source: "pr21.jpg",
+				title: "its amazing",
+				year: 2011,
+				month: 6
+			}
 		]
 	},
 
@@ -655,10 +667,17 @@ jetpacksGallery = {
 				year: 2014,
 				month: 1
 			},
+			{
+				source: "ha21.jpg",
+				title: "pubsuit close up",
+				description: "",
+				year: 2013,
+				month: 8
+			},
 
 
 
 		]
 	},
 
-}
+};
