@@ -119,6 +119,60 @@ jetpacksGallery = {
 				title: "its amazing",
 				year: 2011,
 				month: 6
+			},
+			{
+				source: "pr22.jpg",
+				title: "having fun with ikea",
+				year: 2010,
+				month: 5
+			},
+			{
+				source: "pr23.jpg",
+				title: "having fun with ikea",
+				year: 2010,
+				month: 5
+			},
+			{
+				source: "poop monster2.png",
+				title: "poop monster",
+				year: 2015,
+				month: 5
+			},
+			{
+				source: "p15.jpg",
+				title: "improve your zen now",
+				year: 2012,
+				month: 3
+			},
+			{
+				source: "p14.jpg",
+				title: "board out of my mind",
+				year: 2012,
+				month: 3
+			},
+			{
+				source: "p16.jpg",
+				title: "a moment of your time",
+				year: 2010,
+				month: 3
+			},
+			{
+				source: "p25.jpg",
+				title: "detail of love Carl",
+				year: 2012,
+				month: 1
+			},
+			{
+				source: "p24.jpg",
+				title: "no billboards in space love Carl",
+				year: 2012,
+				month: 1
+			},
+			{
+				source: "p17.jpg",
+				title: "Hattie",
+				year: 2014,
+				month: 7
 			}
 		]
 	},
