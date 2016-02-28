@@ -640,6 +640,12 @@ jetpacksGallery = {
 				title: "Man-drill",
 				year: 2013,
 				month: 12
+			},
+			{
+				source: "pidgeon.jpg",
+				title: "the pigeon",
+				year: 2016,
+				month: 1
 			}
 		]
 
