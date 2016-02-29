@@ -586,7 +586,7 @@ jetpacksGallery = {
 			{
 				source: "c27.jpg",
 				title: "Jumpersuit",
-				description: "Jumpsuit made of reclaimed fabric, sourced entirley from abandoned jumpers found on the streets. (washed and mended beofre used)",
+				description: "Jumpsuit made of reclaimed fabric, sourced entirley from abandoned jumpers found on the streets. (washed and mended before used)",
 				year: 2014,
 				month: 1
 			},
