@@ -96,6 +96,7 @@ jetpacksGallery = {
         year: 2015,
         month: 10
       },
+      /*
       {
         source: "sc38.jpg",
         title: "hand",
@@ -131,13 +132,14 @@ jetpacksGallery = {
         title: "",
         year: 2012,
         month: 6
-      },
+      },*/
       {
         source: "sc31a.jpg",
         title: "reconfiguers",
         year: 2012,
         month: 6
       },
+      /*
       {
         source: "sc32.jpg",
         title: "collection of works",
@@ -168,18 +170,19 @@ jetpacksGallery = {
         year: 2011,
         month: 3
       },
+      */
       {
         source: "sc22.jpg",
         title: "board out of my mind",
         year: 2011,
         month: 2
       },
-      {
+      /*{
         source: "sh16.jpg",
         title: "loving you is easy cause you're beautiful",
         year: 2012,
         month: 8
-      },
+      },*/
       {
         source: "sh18.jpg",
         title: "loving you is easy cause you're beautiful",
@@ -211,6 +214,7 @@ jetpacksGallery = {
         year: 2013,
         month: 9
       },
+      /*
       {
         source: "ha29.jpg",
         title: "kids in masks- festival workshop",
@@ -239,6 +243,7 @@ jetpacksGallery = {
         year: 2010,
         month: 7
       },
+      */
       {
         source: "7.jpg",
         title: "housework ",
@@ -274,6 +279,7 @@ jetpacksGallery = {
         year: 2013,
         month: 12
       },
+      /*
       {
         source: "ph20.jpg",
         title: "we are all one, means you are all me",
@@ -281,6 +287,7 @@ jetpacksGallery = {
         year: 2014,
         month: 7
       },
+      */
       {
         source: "ha22.jpg",
         title: "",
@@ -288,6 +295,7 @@ jetpacksGallery = {
         year: 2013,
         month: 8
       },
+      /*
       {
         source: "ha25.jpg",
         title: "",
@@ -302,7 +310,6 @@ jetpacksGallery = {
         year: 2013,
         month: 8
       },
-      /*
       {
         source: "fp6.jpg",
         title: "tea",
@@ -334,13 +341,17 @@ jetpacksGallery = {
         title: "Love triangles",
         year: 2012,
         month: 8
-      },  {
+      },  
+      /*
+      {
         source: "p11a.jpg",
         title: "Love triangle",
         description: "Bottom pyramid",
         year: 2012,
         month: 8
-      },  {
+      }, 
+      */ 
+      {
         source: "p11b.jpg",
         title: "Love triangle",
         description: "Top pyramid",
@@ -361,29 +372,34 @@ jetpacksGallery = {
         title: "Neutral aim",
         year: 2012,
         month: 2
-      },  {
+      },  
+      {
         source: "sc26.jpg",
         title: "in perfect love and perfect trust",
         year: 2012,
         month: 8
-      },  {
+      },  
+      {
         source: "br22.jpg",
         title: "its a long way nowhere",
         year: 2011,
         month: 11
       },
+      /*
       {
         source: "sc20.jpg",
         title: "Board out of my mind",
         year: 2012,
         month: 1
       },
+      */
       {
         source: "sc25.jpg",
         title: "in perfect love and perfect trust",
         year: 2012,
         month: 8
       },
+      /*
       {
         source: "pr28.jpg",
         title: "mushroom print",
@@ -438,7 +454,6 @@ jetpacksGallery = {
         year: 2010,
         month: 5
       },
-      /*
       {
         source: "poop-monster2.jpg",
         title: "poop monster",
@@ -464,12 +479,14 @@ jetpacksGallery = {
         year: 2010,
         month: 3
       },
+      /*
       {
         source: "p25.jpg",
         title: "detail of love Carl",
         year: 2012,
         month: 1
       },
+      */
       {
         source: "p24.jpg",
         title: "no billboards in space love Carl",
@@ -506,6 +523,7 @@ jetpacksGallery = {
         year: 2013,
         month: 3
       },
+      /*
       {
         source: "dr33.jpg",
         title: "sketchbook",
@@ -536,12 +554,14 @@ jetpacksGallery = {
         year: 2011,
         month: 5
       },
+      */
       {
         source: "dr27.jpg",
         title: "sketchbook",
         year: 2014,
         month: 1
       },
+      /*
       {
         source: "dr26.jpg",
         title: "DNA peace",
@@ -554,6 +574,7 @@ jetpacksGallery = {
         year: 2012,
         month: 3
       },
+      */
       {
         source: "dr24.jpg",
         title: "do you really want to pick that thread?",
@@ -572,24 +593,28 @@ jetpacksGallery = {
         year: 2011,
         month: 12
       },
+      /*
       {
         source: "dr19-yolo.jpg",
         title: "YOLO",
         year: 2013,
         month: 6
       },
+      */
       {
         source: "dr18-yolo2.jpg",
         title: "YOLO",
         year: 2013,
         month: 6
       },
+      /*
       {
         source: "dr16.jpg",
         title: "Jimmy",
         year: 2012,
         month: 4
       },
+      */
       {
         source: "dr15.jpg",
         title: "London got me like",
@@ -608,6 +633,7 @@ jetpacksGallery = {
         year: 2013,
         month: 12
       },
+      /*
       {
         source: "pr18.jpg",
         title: "oppertunity knocks oppertunity wasted",
@@ -620,6 +646,7 @@ jetpacksGallery = {
         year: 2011,
         month: 10
       },
+      */
       {
         source: "pr16.jpg",
         title: "10 ugly mistakes",
@@ -684,6 +711,7 @@ jetpacksGallery = {
         year: 2011,
         month: 6
       },
+      /*
       {
         source: "c24.jpg",
         title: "Elite panic attack, get off my back... you aint never gonna get them trainars back",
@@ -691,6 +719,7 @@ jetpacksGallery = {
         year: 2013,
         month: 3
       },
+      */
       {
         source: "c25.jpg",
         title: "All the women who independent, stop lying.",
@@ -698,6 +727,7 @@ jetpacksGallery = {
         year: 2014,
         month: 2
       },
+      /*
       {
         source: "c26.jpg",
         title: "Sorry but fuck apologists",
@@ -705,6 +735,7 @@ jetpacksGallery = {
         year: 2013,
         month: 12
       },
+      */
       {
         source: "c27.jpg",
         title: "Jumpersuit",
@@ -712,6 +743,7 @@ jetpacksGallery = {
         year: 2014,
         month: 1
       },
+      /*
       {
         source: "c28.jpg",
         title: "Reversable frog hat",
@@ -739,12 +771,14 @@ jetpacksGallery = {
         year: 2014,
         month: 1
       },
+      */
       {
         source: "tx26.jpg",
         title: "if you go down to the woods today, just dont",
         year: 2013,
         month: 8
       },
+      /*
       {
         source: "tx27.jpg",
         title: "if you go down to the woods today, just dont",
@@ -757,6 +791,7 @@ jetpacksGallery = {
         year: 2014,
         month: 3
       },
+      */
       {
         source: "tx30.jpg",
         title: "Man-drill",
