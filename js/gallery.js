@@ -132,12 +132,14 @@ jetpacksGallery = {
 				year: 2010,
 				month: 5
 			},
+      /*
 			{
-				source: "poop monster2.jpg",
+				source: "poop-monster2.jpg",
 				title: "poop monster",
 				year: 2015,
 				month: 5
 			},
+      */
 			{
 				source: "p15.jpg",
 				title: "improve your zen now",
@@ -752,6 +754,7 @@ jetpacksGallery = {
 				year: 2013,
 				month: 8
 			},
+      /*
 			{
 				source: "fp6.jpg",
 				title: "tea",
@@ -759,6 +762,7 @@ jetpacksGallery = {
 				year: 2014,
 				month: 8
 			},
+      */
 			{
 				source: "fp8.jpg",
 				title: "tea",
