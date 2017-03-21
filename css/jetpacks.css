@@ -16,6 +16,15 @@ img {
   display: none;
 }
 
+#sortby-nav .sorter-label {
+  margin-left: 8px;
+}
+
+#sortby-nav>.selected {
+  background: white;
+  color: black;
+}
+
 @media (min-width: 768px){
   .navbar-nav {
       margin: 0 auto;
@@ -26,8 +35,15 @@ img {
 
   #sortby-nav .sorter {
     display: inline-block;
+    margin: none;
   }
 }
+
+@media (max-width: 1050px){
+  #sortby-nav .sorter .sorter-label {
+    display: none;
+  }
+} 
 
 .frontpage .col-md-12 {
 	text-align:center;
@@ -106,6 +122,9 @@ a.navbar-brand {
 #sortby-nav>a, #sortby-nav>div .title {
   letter-spacing: 2px;
   font-weight: bold;
+}
+
+#sortby-nav>a:not(.selected), #sortby-nav>div:not(.selected) .title {
   color: white;
 }
 
@@ -113,28 +132,24 @@ a.navbar-brand {
   background: #444;
 }
 
-#sortby-nav>div .sorter {
-  margin-left: 12px;
-}
-
 .sort-button {
   border-radius: 3px;
   padding: 2px 6px;
-  margin: 2px 0 2px 12px;
+  margin: 2px 2px 0 2px;
   color: black;
-  background: white;
   cursor: default;
+  text-decoration: underline;
 }
 
 .sort-button:not(.selected) {
-  background: #bbb;
-  color: #666;
+  opacity: 0.5;
+  text-decoration: none;
   cursor: pointer;
 }
 
 .sort-button:not(.selected):hover {
-  background: #ddd;
-  color: #333;
+  opacity: 0.75;
+  text-decoration: underline;
 }
 
 #portfolio-nav a {
