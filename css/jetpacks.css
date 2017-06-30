@@ -12,6 +12,28 @@ img {
 	max-width:100%;
 }
 
+.now-showing {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -56pt;
+}
+
+.now-showing a {
+  color: white;
+  text-decoration: underline;
+}
+
+.now-showing .big {
+  font-size: 24pt;
+  text-shadow: 2px 2px 0 black;
+}
+
+.now-showing .little {
+  font-size: 10pt;
+  text-shadow: 1px 1px 0 black;
+}
+
 #sortby-nav .sorter {
   display: none;
 }
