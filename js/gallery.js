@@ -18,6 +18,7 @@ jetpacksGallery = {
   "sculpture" : {
     title: "Sculpture / Installation",
     pictures: [
+      /*
       {
         source: "ggg.jpg",
         title: "3D test prints",
@@ -36,6 +37,7 @@ jetpacksGallery = {
         year: 2014,
         month: 1
       },
+      */
       {
         source: "DSC04277.jpg",
         title: "I love your fruiting body",
@@ -59,7 +61,7 @@ jetpacksGallery = {
         title: "I love your fruiting body",
         year: 2014,
         month: 1
-      },
+      },/*
       {
         source: "stuff.jpg",
         title: "3D test prints",
@@ -77,13 +79,13 @@ jetpacksGallery = {
         title: "Carl Sagan teapot plant",
         year: 2015,
         month: 11
-      },
       {
         source: "jetpacks_7.jpg",
         title: "Carl Sagan teapot plant",
         year: 2015,
         month: 11
       },
+      },*/
       {
         source: "DSC05878.jpg",
         title: "classic Sharon biscuit tragedy",
@@ -170,19 +172,18 @@ jetpacksGallery = {
         year: 2011,
         month: 3
       },
-      */
       {
         source: "sc22.jpg",
         title: "board out of my mind",
         year: 2011,
         month: 2
       },
-      /*{
+      {
         source: "sh16.jpg",
         title: "loving you is easy cause you're beautiful",
         year: 2012,
         month: 8
-      },*/
+      },
       {
         source: "sh18.jpg",
         title: "loving you is easy cause you're beautiful",
@@ -195,6 +196,7 @@ jetpacksGallery = {
         year: 2012,
         month: 8
       },
+      */
       {
         source: "sh22.jpg",
         title: "loving you is easy cause you're beautiful",
@@ -272,6 +274,7 @@ jetpacksGallery = {
         year: 2013,
         month: 10
       },
+      /*
       {
         source: "ha18.jpg",
         title: "Fish chips and mushy peas",
@@ -279,7 +282,6 @@ jetpacksGallery = {
         year: 2013,
         month: 12
       },
-      /*
       {
         source: "ph20.jpg",
         title: "we are all one, means you are all me",
@@ -698,12 +700,13 @@ jetpacksGallery = {
         year: 2011,
         month: 9
       },
-            {
+      {
         source: "c22.jpg",
         title: "Capitalisms fundamental premise is scarcity",
         year: 2013,
         month: 8
       },
+      /*
       {
         source: "c23.jpg",
         title: "Young men pull your trousers up",
@@ -711,7 +714,6 @@ jetpacksGallery = {
         year: 2011,
         month: 6
       },
-      /*
       {
         source: "c24.jpg",
         title: "Elite panic attack, get off my back... you aint never gonna get them trainars back",
@@ -771,14 +773,12 @@ jetpacksGallery = {
         year: 2014,
         month: 1
       },
-      */
       {
         source: "tx26.jpg",
         title: "if you go down to the woods today, just dont",
         year: 2013,
         month: 8
       },
-      /*
       {
         source: "tx27.jpg",
         title: "if you go down to the woods today, just dont",
