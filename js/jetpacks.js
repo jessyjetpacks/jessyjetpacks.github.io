@@ -70,9 +70,19 @@ function newPicture(galleryHTML, picture, galleryType) {
 }
 
 function newAudio(galleryHTML, src) {
-	galleryHTML.append('<div class="col-sm-6 col-xs-12">' +
-		'<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + src.source + '&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>' +
-		'</div>');
+  if (src.manual) {
+    galleryHTML.append('<div class="col-sm-6 col-xs-12">' +
+      '<div class="manual-audio-box"><img src="img/images/' + src.thumbnail + '">' +
+      '<div><h2>' + src.title +'</h2>' +
+      '<div class="description">' + src.description + '</div>' +
+      (src.shopURL ? '<a class="shopping-link" href="shop.html#' + src.shopURL + '">&gt;&gt; Buy in the shop</a>' : '') +
+      '</div></div>');
+  } else {
+    // Assume soundcloud
+    galleryHTML.append('<div class="col-sm-6 col-xs-12">' +
+      '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + src.source + '&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>' +
+      '</div>');
+  }
 }
 
 function showByMedia() {

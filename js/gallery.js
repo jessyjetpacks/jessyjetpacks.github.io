@@ -209,6 +209,7 @@ jetpacksGallery = {
   "Stills" : {
     title: "Stills and performance",
     pictures: [
+      /*
       {
         source: "ha30.jpg",
         title: "kids in masks- festival workshop",
@@ -216,7 +217,6 @@ jetpacksGallery = {
         year: 2013,
         month: 9
       },
-      /*
       {
         source: "ha29.jpg",
         title: "kids in masks- festival workshop",
