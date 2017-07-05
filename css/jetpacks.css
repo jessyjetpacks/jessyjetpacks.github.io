@@ -41,7 +41,7 @@ img {
   color: black;
 }
 
-@media (min-width: 768px){
+@media (min-width: 1000px){
   .navbar-nav {
       margin: 0 auto;
       display: table;
@@ -329,4 +329,13 @@ table.download td, table.download th {
 .shop-item>div {
   display: flex;
   flex-flow: row nowrap;
+}
+
+#treats div {
+  margin: 0 auto 2em auto;
+  max-width: 800px;
+}
+
+#treats div.centered {
+  text-align: center;
 }
