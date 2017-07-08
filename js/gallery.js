@@ -217,13 +217,13 @@ pictures: [
     year: 2015,
     month: 10
   },
+  /*
   {
     source: "jetpacks_1.jpg",
     title: "classic Sharon biscuit tragedy",
     year: 2015,
     month: 10
   },
-  /*
   {
     source: "sc38.jpg",
     title: "hand",
@@ -470,14 +470,15 @@ pictures: [
     year: 2012,
     month: 8
   }, 
-  */ 
   {
     source: "p11b.jpg",
     title: "Love triangle",
     description: "Top pyramid",
     year: 2012,
     month: 8
-  },  {
+  },  
+  */ 
+  {
     source: "p12.jpg",
     title: "In perfect love and perfect trust",
     year: 2012,
@@ -487,12 +488,15 @@ pictures: [
     title: "",
     year: 2012,
     month: 2
-  },  {
+  },
+  /*
+  {
     source: "br17.jpg",
     title: "Neutral aim",
     year: 2012,
     month: 2
-  },  
+  },
+  */  
   {
     source: "sc26.jpg",
     title: "in perfect love and perfect trust",
@@ -580,26 +584,26 @@ pictures: [
     year: 2015,
     month: 5
   },
-  */
   {
     source: "p15.jpg",
     title: "improve your zen now",
     year: 2012,
     month: 3
   },
+  */
   {
     source: "p14.jpg",
     title: "board out of my mind",
     year: 2012,
     month: 3
   },
+  /*
   {
     source: "p16.jpg",
     title: "a moment of your time",
     year: 2010,
     month: 3
   },
-  /*
   {
     source: "p25.jpg",
     title: "detail of love Carl",
@@ -613,12 +617,14 @@ pictures: [
     year: 2012,
     month: 1
   },
+  /*
   {
     source: "p17.jpg",
     title: "Hattie",
     year: 2014,
     month: 7
   },
+  */
   {
     source: "p18.jpg",
     title: "Dots first trip",
@@ -694,7 +700,6 @@ pictures: [
     year: 2012,
     month: 3
   },
-  */
   {
     source: "dr24.jpg",
     title: "do you really want to pick that thread?",
@@ -707,6 +712,7 @@ pictures: [
     year: 2013,
     month: 3
   },
+  */
   {
     source: "dr20aaa.jpg",
     title: "how long are you going to hold that over me",
@@ -734,7 +740,6 @@ pictures: [
     year: 2012,
     month: 4
   },
-  */
   {
     source: "dr15.jpg",
     title: "London got me like",
@@ -753,7 +758,6 @@ pictures: [
     year: 2013,
     month: 12
   },
-  /*
   {
     source: "pr18.jpg",
     title: "oppertunity knocks oppertunity wasted",
