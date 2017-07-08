@@ -85,80 +85,19 @@ function newAudio(galleryHTML, src) {
   }
 }
 
-function showByMedia() {
-	var gal;
-
-	clearTheStage();
-
-	_.each( jetpacksGallery, function(gallery, key) {
-		$( "#portfolio-nav" ).append( "<div class='col-sm-4 col-xs-6'><a href='#" + key + "'>" + gallery.title + "</a></div>" );
-
-		gal = newGallery(gallery.title, key, gallery.type);
-
-		gallerySort(gallery.pictures).forEach(function(picture) {
-			newPicture(gal, picture, gallery.type);
-		});
-	});
-
-	// Portfolio media selector
-	$( ".portfolio-nav a" ).click( function (event) {
-		event.preventDefault();
-		var href = $( this ).attr( "href" );
-		console.log( href );
-
-		if ( $( this ).hasClass( "active" ) ) {
-			$( this ).removeClass( "active" );
-			$( ".portfolio" ).slideDown();
-		} else {
-			$( ".portfolio" ).not( href ).slideUp();
-			$( href ).slideDown();
-			$( ".portfolio-nav a" ).removeClass( "active" );
-			$( this ).addClass( "active" );
-		}
-	});
-
-	lightBoxInit();
-}
-
-function showByDate() {
+function renderPortfolio() {
 	var images = [];
 	var year = "";
-	var gal;
 
 	clearTheStage();
 
-	_.each( jetpacksGallery, function(gallery, key) {
-		images = images.concat(gallery.pictures);
-	});
+	var gal = newGallery("", "");
 
-	gallerySort(images).forEach(function(image) {
-		if (image.year != year) {
-			year = image.year;
-			gal = newGallery(year, year);
-		}
-
+	gallerySort(jetpacksGallery).forEach(function(image) {
 		newPicture(gal, image);
 	});
 
 	lightBoxInit();
-}
-
-function renderPortfolio() {
-	showByMedia();
-
-	// Portfolio date/media selector
-	$( ".sort-button" ).click(function (event) {
-		if (!$(this).hasClass("selected")) {
-			$(".sort-button").removeClass("selected");
-			$(this).addClass("selected");
-
-			if ( $(this).hasClass("sort-by-date") ) {
-				showByDate();
-			} else {
-				showByMedia();
-			}
-		}
-	});
 }
 
 function renderAudio() {
@@ -174,25 +113,3 @@ function renderAudio() {
 		newAudio(gal, src);
 	});
 }
-
-
-
-/* Deprecated
-$('.portfolio.video').each(function() {
-	$(this).magnificPopup({
-		delegate: 'a.image-link', // the selector for gallery item
-		type: 'iframe',
-		gallery: {
-			enabled: true
-		},
-		disableOn: 700,
-		mainClass: 'mfp-fade',
-		removalDelay: 160,
-		preloader: false,
-		fixedContentPos: false,
-		image: {
-			titleSrc: 'data-title'
-		}
-	});
-});
-*/
