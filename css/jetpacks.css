@@ -41,6 +41,13 @@ img {
   color: black;
 }
 
+@media (max-width: 350px){
+  .navbar-header a.navbar-brand {
+    padding-left: 0;
+    font-size: 22pt;
+  }
+}
+
 @media (min-width: 1000px){
   .navbar-nav {
       margin: 0 auto;
@@ -220,7 +227,6 @@ div.footer {
 	font-size:8pt;
 	font-family: 'Montserrat Subrayada', sans-serif;
 	color:#666;
-	position: fixed;
 	right:0;
 	bottom:0;
 	padding:12pt;
@@ -278,6 +284,7 @@ table.download td, table.download th {
   border: 1px solid #e5e5e5;
   box-shadow: inset 0 0 0 1px hsla(0,0%,100%,.5);
   background-color: #f5f5f5;
+  margin-bottom: 6px;
 }
 
 .manual-audio-box img {
@@ -331,4 +338,23 @@ table.download td, table.download th {
 
 #treats div.centered {
   text-align: center;
+}
+
+#treats iframe, #video-gallery iframe {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-description {
+  max-width: 640px;
+  padding: 10px;
+  border-left: solid 1px #999;
+  border-right: solid 1px #999;
+  border-bottom: solid 1px #999;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 0 auto 1em auto;
+  text-align: left;
 }
