@@ -237,12 +237,37 @@ a.navbar-brand {
 }
 
 div.footer {
-	font-size:8pt;
-	font-family: 'Montserrat Subrayada', sans-serif;
-	color:#666;
+	font-size:12pt;
+	color:#ddd;
 	right:0;
 	bottom:0;
-	padding:12pt;
+  padding:12pt;
+  background: #999;
+  margin-top: 20px;
+  text-align: center;
+}
+
+div.footer ul.links {
+  margin: 0 1em 1em 1em;
+  padding: 0;
+}
+
+div.footer ul.links li {
+  display: inline-block;
+}
+
+div.footer a {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.33);
+  padding-bottom: 2px;
+  border-bottom: solid 2px rgba(0,0,0,0);
+}
+
+div.footer a:hover {
+  text-shadow: 1px 1px 1px black;
+  text-decoration: none;
+  border-bottom-color: #fff;
 }
 
 span.picture_title {
@@ -411,4 +436,35 @@ ul.inline-list {
   margin-left: auto;
   margin-right: auto;
   font-family: monospace;
+}
+
+/*Shows*/
+#shows {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#shows>ul {
+  border-left: solid 1px #888;
+  margin-left: 2em;
+  padding-left: 2em;
+}
+
+#shows>ul>li {
+  display: block;
+}
+
+#shows>ul>li>h3 {
+  font-size: 16pt;
+}
+
+#shows>ul>li>h3>a, #shows>ul>li>h3>a:hover, #shows>ul>li>h3>a:visited {
+  color: black;
+}
+
+#shows>ul>li>h3>a::after {
+  font-family: 'FontAwesome';
+  content: "\00A0\00A0\f08e";
+  color: #aaa;
 }
