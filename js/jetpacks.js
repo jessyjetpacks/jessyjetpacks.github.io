@@ -9,8 +9,8 @@ function clearTheStage() {
 	$("#portfolio-gallery").html("");
 }
 
-function lightBoxInit() {
-	$('.portfolio.image').each(function() {
+function lightBoxInit(selector='') {
+	$(selector).each(function() {
 		$(this).magnificPopup({
 			delegate: 'a.image-link', // the selector for gallery item
 			type: 'image',
@@ -97,7 +97,7 @@ function renderPortfolio() {
 		newPicture(gal, image);
 	});
 
-	lightBoxInit();
+	lightBoxInit('.portfolio.image');
 }
 
 function renderAudio() {

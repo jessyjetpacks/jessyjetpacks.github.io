@@ -452,18 +452,45 @@ ul.inline-list {
 }
 
 #shows>ul>li {
-  display: block;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
-#shows>ul>li>h3 {
+#shows>ul>li>a {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+#shows>ul>li>div {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#shows>ul>li>a {
+  padding: 8px 16px 8px 0;
+}
+
+#shows>ul>li>a>img {
+  width: 80px;
+  height: 80px;
+  border: 6px solid #ddd;
+  border-radius: 6px;
+}
+
+#shows>ul>li>a:hover>img {
+  border-color: #aaa;
+}
+
+#shows>ul>li h3 {
   font-size: 16pt;
+  margin-top: 14px;
 }
 
-#shows>ul>li>h3>a, #shows>ul>li>h3>a:hover, #shows>ul>li>h3>a:visited {
+#shows>ul>li h3>a, #shows>ul>li h3>a:hover, #shows>ul>li h3>a:visited {
   color: black;
 }
 
-#shows>ul>li>h3>a::after {
+#shows>ul>li h3>a::after {
   font-family: 'FontAwesome';
   content: "\00A0\00A0\f08e";
   color: #aaa;
