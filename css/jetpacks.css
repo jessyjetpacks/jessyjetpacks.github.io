@@ -1,5 +1,5 @@
 body {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 img {
@@ -68,19 +68,41 @@ img {
   }
 } 
 
-.frontpage .col-md-12 {
+.frontpage>.row>div {
 	text-align:center;
 }
 
-.frontpage h1, .frontpage img {
+.frontpage #shows {
+  display: inline-block;
+  text-align: left;
+}
+
+.frontpage #shows ul {
+  padding-left: 0;
+}
+
+.frontpage #shows>a {
+  font-size: 18px;
+}
+
+.frontpage #shows>h2 {
+  color: #999;
+}
+
+.frontpage h1, .frontpage .splash>img {
 	margin-left:auto;
-	margin-right:auto;
+  margin-right:auto;
+  margin-bottom: 20px;
 }
 
 .frontpage h1, .shop-item h1 {
 	font-family: 'Monoton', cursive;
 	word-spacing: 15pt;
 	font-size:30pt;
+}
+
+.frontpage h2:first-of-type {
+  margin-top: 0;
 }
 
 .navbar li a, a.navbar-brand {
@@ -175,6 +197,10 @@ a.navbar-brand {
   text-decoration: underline;
 }
 
+#portfolio-gallery, #video-gallery {
+  padding-top: 40px;
+}
+
 #portfolio-nav a {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	color:#666;
@@ -200,15 +226,6 @@ a.navbar-brand {
 .portfolio .image  {
   padding: 2px;
 }
-
-/*
-.portfolio .image, #portfolio-nav > div {
-	display:inline-block;
-	float:none;
-	vertical-align:middle;
-	text-align:center;
-}
-*/
 
 .portfolio .image a {
   padding: 12px;
@@ -445,7 +462,7 @@ ul.inline-list {
   margin-right: auto;
 }
 
-#shows>ul {
+#shows>ul, {
   border-left: solid 1px #888;
   margin-left: 2em;
   padding-left: 2em;

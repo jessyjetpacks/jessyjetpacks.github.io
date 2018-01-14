@@ -8,6 +8,7 @@
     <meta name="author" content="Jessy Jetpacks">
     <meta name="keywords" content="Jessy Jetpacks, art, artist, portfolio, shop, prints, painting, drawing, sketchbooks, photography, performance, events, happenings, how to, textile, fashion, vernacular, collage, installation, sculpture">
     <link href='http://fonts.googleapis.com/css?family=Monofett|Monoton|Montserrat+Subrayada' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- <link rel="shortcut icon" href="../../assets/ico/favicon.ico"> -->
 
     <title>Jessy Jetpacks - home</title>
@@ -16,8 +17,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
-    <link href="css/jetpacks.css" rel="stylesheet">
+    <link href="css/jetpacks.css?cachebuster=2" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -53,15 +55,40 @@
 
     <div class="container frontpage">
       <div class="row">
-        <div class="col-md-12">
-          <h1>Welcome Travellers</h1>
+        <div class="col-md-8 splash">
+            <h1>Welcome Travellers</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 splash">
           <img src="img/jeppyface.jpg" width="600"/>
-          <!--
-          <div class="now-showing">
-            <div class="big">Now showing at <a href="https://www.royalacademy.org.uk/exhibition/ra-schools-show-2017" target="_new">RA Schools Show 2017</a></div>
-            <div class="little">In London until 02 July 2017</div>
+        </div>
+        <div class="col-md-4">
+          <div id="shows">
+            <h2>Upcoming shows</h2>
+            <ul>
+              <li>
+                <a class="image-link" href="img/shows/20 fractal paisleys.jpg" data-title="Fractal Paisleys (2018)"><img src="img/shows/thumbnails/20 fractal paisleys.jpg"></a>
+                <div>
+                  <h3><a href="http://www.embassygallery.org/fractal-paisleys/">Fractal Paisleys</a></h3>
+                  Embassy Gallery, Edinburgh, 20 January 2017 - 11 February 2018
+                </div>
+              </li>
+            </ul>
+
+            <h2>Ongoing shows</h2>
+            <ul>
+              <li>
+                <a class="image-link" href="img/shows/19 second space.jpg" data-title="The Second Space (2017)"><img src="img/shows/thumbnails/19 second space.jpg"></a>
+                <div>
+                  <h3>The Second Space</h3>
+                  Maike Centre, Xi'an, China, November 2017 - February 2018
+                </div>
+              </li>
+            </ul>
+
+            <h2><a href="shows.html">Past shows...</a></h2>
           </div>
-          -->
         </div>
       </div>
     </div>
@@ -78,6 +105,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/underscore-min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jetpacks.js"></script>
+    <script>
+      $(document).ready(function() {
+        lightBoxInit('#shows');
+      });
+    </script>
 </html>
 
