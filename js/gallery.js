@@ -84,6 +84,18 @@ jetpacksGallery = [
     month: 2
   },
   {
+    source: "2015/2.jpg",
+    title: "",
+    year: 2015,
+    month: 10
+  },
+  {
+    source: "2015/1.jpg",
+    title: "",
+    year: 2015,
+    month: 8
+  },
+  {
     source: "2017/6.jpg",
     title: "",
     year: 2015,
