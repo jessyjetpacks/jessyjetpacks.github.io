@@ -1,6 +1,6 @@
 jetpacksGallery = [
   {
-    source: "2018/8.jpg",
+    source: "2018/yinyang.gif",
     title: "",
     year: 2018,
     month: 2
