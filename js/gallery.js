@@ -290,12 +290,6 @@ pictures: [
   },
   */
   {
-    source: "DSC04277.jpg",
-    title: "I love your fruiting body",
-    year: 2014,
-    month: 1
-  },
-  {
     source: "DSC04269.jpg",
     title: "I love your fruiting body",
     year: 2014,
